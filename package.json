@@ -1,0 +1,25 @@
+{
+  "name": "feed-rico-hardware",
+  "version": "1.0.0",
+  "description": "Hardware on intel edison for dispensing food.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeydlee95/feed-rico-hardware.git"
+  },
+  "author": "Joey Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeydlee95/feed-rico-hardware/issues"
+  },
+  "homepage": "https://github.com/joeydlee95/feed-rico-hardware#readme",
+  "dependencies": {
+    "mraa": "^1.8.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
